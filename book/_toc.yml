@@ -1,0 +1,10 @@
+format: jb-book
+root: docs/index
+parts:
+- caption: Template
+  numbered: False
+  chapters:
+  - file: docs/guide/Guide  
+    sections:
+    - file: docs/guide/markdown-example
+    - file: docs/guide/notebook-example
