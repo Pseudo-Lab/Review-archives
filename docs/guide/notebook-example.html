@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>.ipynb 파일 활용 &#8212; Review Archives</title>
+    <title>Jupyter-notebook(.ipynb) Tips &#8212; Review Archives</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -54,7 +54,8 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../../_static/PseudoLab_logo.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="prev" title="Markdown Template" href="markdown-example.html" />
+    <link rel="next" title="Introduction" href="../01_SegmentationCrew/Intro.html" />
+    <link rel="prev" title="Writing Rules (Markdown)" href="markdown-example.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -116,29 +117,112 @@ const thebe_selector_output = ".output, .cell_output"
         </ul>
         <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Template
+  작성 가이드
  </span>
 </p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active has-children">
+ <li class="toctree-l1">
   <a class="reference internal" href="Guide.html">
-   작성 가이드
+   JupyterBook 기본 사용법
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="markdown-example.html">
+   Writing Rules (Markdown)
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Jupyter-notebook(.ipynb) Tips
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  PLXXX-Segmentation (Sample)
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../01_SegmentationCrew/Intro.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../01_SegmentationCrew/ch4/04_Weakly-supervised%20Segmentation.html">
+   Part4: Weakly-supervised Setting
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul class="current">
-   <li class="toctree-l2">
-    <a class="reference internal" href="markdown-example.html">
-     Markdown Template
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../01_SegmentationCrew/ch4/04_01_LearningPixelAffinity.html">
+     A. Learning Pixel Affinity
     </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+    <label for="toctree-checkbox-2">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../01_SegmentationCrew/ch4/04_01_01_AffinityNet.html">
+       AffinityNet - CVPR 2018
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../01_SegmentationCrew/ch4/04_01_02_IAL.html">
+       IAL - IJCV 2020
+      </a>
+     </li>
+    </ul>
    </li>
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
-     .ipynb 파일 활용
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../01_SegmentationCrew/ch4/04_02_AdversarialErasing.html">
+     B. Adversarial Erasing
     </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+    <label for="toctree-checkbox-3">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../01_SegmentationCrew/ch4/04_02_02_SeeNet.html">
+       SeeNet - NeurIPS 2018
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../01_SegmentationCrew/ch4/04_02_03_GCNet.html">
+       GCNet - ICCV 2021
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../01_SegmentationCrew/ch4/04_02_05_PuzzleCAM.html">
+       PuzzleCAM - ICIP 2021
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../01_SegmentationCrew/ch4/04_03_Attention.html">
+     C. Self-Attention
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+    <label for="toctree-checkbox-4">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../01_SegmentationCrew/ch4/04_03_01_SEAM.html">
+       SEAM - CVPR 2020
+      </a>
+     </li>
+    </ul>
    </li>
   </ul>
  </li>
@@ -326,23 +410,60 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#removing-code-cell-content">
+   1. Removing code cell content
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>.ipynb 파일 활용</h1>
+                <h1>Jupyter-notebook(.ipynb) Tips</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#removing-code-cell-content">
+   1. Removing code cell content
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -350,8 +471,8 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="ipynb">
-<h1>.ipynb 파일 활용<a class="headerlink" href="#ipynb" title="Permalink to this headline">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="jupyter-notebook-ipynb-tips">
+<h1>Jupyter-notebook(.ipynb) Tips<a class="headerlink" href="#jupyter-notebook-ipynb-tips" title="Permalink to this headline">#</a></h1>
 <p>Jupyter Book에선 .ipynb파일 또한 지원합니다. 아래와 같이 코드를 입력하고, 그에 대응하는 출력물을 함께 웹페이지로 구성 가능합니다.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -369,6 +490,60 @@ title="Print to PDF"
 </div>
 </div>
 <p><a class="reference external" href="https://jupyterbook.org/interactive/interactive.html#plotly">공식 홈페이지</a>를 참고하여 interactive한 시각화도 가능합니다.</p>
+<section id="removing-code-cell-content">
+<h2>1. Removing code cell content<a class="headerlink" href="#removing-code-cell-content" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Reference: <a class="reference external" href="https://jupyterbook.org/en/stable/interactive/hiding.html#hide-code-cell-content">https://jupyterbook.org/en/stable/interactive/hiding.html#hide-code-cell-content</a></p></li>
+<li><p>Code cell을 숨기기고 싶은 경우 cell tag에 hide-cell을 추가한다. (input, output 모두 가려짐)</p></li>
+<li><p>Visual Studio Code로 작업하는 경우 Cell 상단 … 선택 후 “Add Cell Tag”로 추가 가능</p></li>
+</ul>
+<div class="cell tag_hide-cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># hide-cell tag 추가</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7fb340725160&gt;]
+</pre></div>
+</div>
+<img alt="../../_images/notebook-example_5_1.png" src="../../_images/notebook-example_5_1.png" />
+</div>
+</div>
+<ul class="simple">
+<li><p>Cell의 input 숨기기를 적용하는 경우 cell tag에 hide-input을 추가한다. (input 가려짐)</p></li>
+</ul>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># hide-input tag 추가</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7fb340628f70&gt;]
+</pre></div>
+</div>
+<img alt="../../_images/notebook-example_7_1.png" src="../../_images/notebook-example_7_1.png" />
+</div>
+</div>
+<ul class="simple">
+<li><p>Cell의 input을 표시하지 않는 경우 cell tag에 remove-input을 추가한다.</p></li>
+</ul>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7fb34060bca0&gt;]
+</pre></div>
+</div>
+<img alt="../../_images/notebook-example_9_1.png" src="../../_images/notebook-example_9_1.png" />
+</div>
+</div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -402,8 +577,15 @@ title="Print to PDF"
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Markdown Template</p>
+            <p class="prev-next-title">Writing Rules (Markdown)</p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="../01_SegmentationCrew/Intro.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Introduction</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             </footer>
