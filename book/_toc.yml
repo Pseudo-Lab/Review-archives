@@ -1,10 +1,27 @@
 format: jb-book
 root: docs/index
 parts:
-- caption: Template
+- caption: 작성 가이드
   numbered: False
   chapters:
   - file: docs/guide/Guide  
+  - file: docs/guide/markdown-example
+  - file: docs/guide/notebook-example
+- caption: PLXXX-Segmentation (Sample)
+  chapters:
+  - file: docs/01_SegmentationCrew/Intro
+  - file: docs/01_SegmentationCrew/ch4/04_Weakly-supervised Segmentation
     sections:
-    - file: docs/guide/markdown-example
-    - file: docs/guide/notebook-example
+    - file: docs/01_SegmentationCrew/ch4/04_01_LearningPixelAffinity
+      sections:
+      - file: docs/01_SegmentationCrew/ch4/04_01_01_AffinityNet
+      - file: docs/01_SegmentationCrew/ch4/04_01_02_IAL
+    - file: docs/01_SegmentationCrew/ch4/04_02_AdversarialErasing
+      sections:
+      - file: docs/01_SegmentationCrew/ch4/04_02_02_SeeNet
+      - file: docs/01_SegmentationCrew/ch4/04_02_03_GCNet
+      - file: docs/01_SegmentationCrew/ch4/04_02_05_PuzzleCAM
+    - file: docs/01_SegmentationCrew/ch4/04_03_Attention
+      sections:
+      - file: docs/01_SegmentationCrew/ch4/04_03_01_SEAM
+
